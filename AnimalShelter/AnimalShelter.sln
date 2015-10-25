@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalShelter", "AnimalShelter\AnimalShelter.csproj", "{DF19D669-9109-4783-AE42-2FE7BBF39E38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{30079DEA-44A5-4D4F-A3BA-80A02FA957A5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AnimalShelterTest", "AnimalShelterTest\AnimalShelterTest.vcxproj", "{9757CB21-B840-49A6-B057-9F322E543DD6}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "Docs", "Docs\Docs.shfbproj", "{B7B51388-778C-4893-BAA6-A90F22D05416}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dziouba.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AnimalShelter\\AnimalShelter.csproj
+		SccProjectName1 = AnimalShelter
+		SccLocalPath1 = AnimalShelter
+		SccProjectUniqueName2 = AnimalShelterTest\\AnimalShelterTest.vcxproj
+		SccProjectName2 = AnimalShelterTest
+		SccLocalPath2 = AnimalShelterTest
+		SccProjectUniqueName3 = Docs\\Docs.shfbproj
+		SccProjectName3 = Docs
+		SccLocalPath3 = Docs
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF19D669-9109-4783-AE42-2FE7BBF39E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF19D669-9109-4783-AE42-2FE7BBF39E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF19D669-9109-4783-AE42-2FE7BBF39E38}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{DF19D669-9109-4783-AE42-2FE7BBF39E38}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{DF19D669-9109-4783-AE42-2FE7BBF39E38}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{DF19D669-9109-4783-AE42-2FE7BBF39E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF19D669-9109-4783-AE42-2FE7BBF39E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF19D669-9109-4783-AE42-2FE7BBF39E38}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{DF19D669-9109-4783-AE42-2FE7BBF39E38}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{DF19D669-9109-4783-AE42-2FE7BBF39E38}.Release|Win32.ActiveCfg = Release|Any CPU
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Debug|Win32.Build.0 = Debug|Win32
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Release|Any CPU.ActiveCfg = Release|Win32
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Release|Win32.ActiveCfg = Release|Win32
+		{9757CB21-B840-49A6-B057-9F322E543DD6}.Release|Win32.Build.0 = Release|Win32
+		{B7B51388-778C-4893-BAA6-A90F22D05416}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B51388-778C-4893-BAA6-A90F22D05416}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B51388-778C-4893-BAA6-A90F22D05416}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{B7B51388-778C-4893-BAA6-A90F22D05416}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{B7B51388-778C-4893-BAA6-A90F22D05416}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{B7B51388-778C-4893-BAA6-A90F22D05416}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B51388-778C-4893-BAA6-A90F22D05416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B51388-778C-4893-BAA6-A90F22D05416}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{B7B51388-778C-4893-BAA6-A90F22D05416}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{B7B51388-778C-4893-BAA6-A90F22D05416}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
